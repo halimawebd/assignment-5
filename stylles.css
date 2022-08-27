@@ -3,6 +3,7 @@
  body{
   font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
+background: black;
  }
 
 header{
@@ -27,4 +28,7 @@ background-position: right;
 .part{
   padding-top: 30%;
   color: coral;
+}
+.cart-part{
+  background-color: black;
 }
