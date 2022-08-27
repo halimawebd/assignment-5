@@ -1,0 +1,30 @@
+
+
+ body{
+  font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+ }
+
+header{
+display: flex;
+margin-bottom: 150px;
+}
+.dream-big{
+background-repeat: no-repeat;
+background-position: right;
+
+}
+.half-width{
+  /* margin-top: 100; */
+  width: 50%;
+  padding-left: 2%;
+  background-color: black;
+  color: aliceblue;
+}
+.half-width img{
+  width: 80%;
+}
+.part{
+  padding-top: 30%;
+  color: coral;
+}
