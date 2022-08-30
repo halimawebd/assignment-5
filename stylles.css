@@ -31,7 +31,7 @@ background-position: right;
 }
 .cart-part{
   
-background-color: black;
+background-color: rgb(44, 40, 40);
   
 }
 .select-word{
@@ -51,9 +51,7 @@ background-color: black;
 .card-text{
   color: white;
 }
-.row{
-  background-color: rgb(35, 30, 30);
-}
+
 .Player-Expenses{
   color: white;
 }
@@ -63,5 +61,12 @@ background-color: black;
 .dolar-part{
   color: white;
 }
+.copi-right{
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  padding-top: 200px;
+}
+
 
 
