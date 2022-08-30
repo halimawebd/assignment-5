@@ -3,7 +3,7 @@
  body{
   font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
-background: black;
+background:black;
  }
 
 header{
@@ -30,5 +30,38 @@ background-position: right;
   color: coral;
 }
 .cart-part{
-  background-color: black;
+  
+background-color: black;
+  
 }
+.select-word{
+  background-color: black;
+  
+  margin-top: 5px;
+  padding: 20px;
+  line-height: 2;
+}
+.card-body{
+  background-color:black;
+  color:white
+}
+.card-title{
+  color: white;
+}
+.card-text{
+  color: white;
+}
+.row{
+  background-color: rgb(35, 30, 30);
+}
+.Player-Expenses{
+  color: white;
+}
+.Total-part{
+  color: white;
+}
+.dolar-part{
+  color: white;
+}
+
+
