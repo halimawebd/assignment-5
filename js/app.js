@@ -37,29 +37,45 @@ function addToCart(element)
   console.log(element)
     const Selectobj ={
     selectName: selectName,
-
-    
-
-  }
+}
   cartArray.push(Selectobj);
 
   console.log(cartArray);
 
   // console.log(cartArray.length);
   // document.getElementById('total-added-select').innerText = cartArray-length;
-
-  
 }
 
 // calculator-part
 
-// document.getElementById('total-calculate').addEventListener('click',function(){
+document.getElementById('total-calculate').addEventListener('click',function(){
 
 
-//   let playerExpenseElement = document.getElementById('Player Expenses');
-//   let playerExpenseElementString = playerExpenseElement.innerText;
-//   let playerExpense = parseInt( playerExpenseElementString);
+  let playerExpenseElement = document.getElementById('par-player');
+  let playerExpenseElementString = playerExpenseElement.value;
+  let playerExpense = parseInt( playerExpenseElementString);
+  console.log(playerExpense);
+  const payToManagerElement = getElementById('payToManager');
+  const payToManagerElementString = payToManagerElement.value;
 
-//   const payToManagerElement = getElementById('payToManager');
-//   const payToManagerElementString = payToManagerElement.value;
-// })
+  let payToManager = parseInt(payToManagerElementString);
+
+
+  const payToCoachElement = document.getElementById('coach');
+  const payCoachElementString = payToCoachElement.value;
+  // const payToCoachE = parseInt(payCoachElementString);
+  let payToCoach = parseInt(payCoachElementString);
+
+  let totalCalculate = playerExpense + payToManager + payToCoach;
+
+   console .log(totalCalculate);
+})
+document.getElementById('calculate').addEventListener('click',function(){
+  let playerExpenseElement = document.getElementById('par-player');
+  let playerExpenseElementString = playerExpenseElement.value;
+  let playerExpense = parseInt( playerExpenseElementString);
+  console.log(playerExpense);
+})
+
+
+
